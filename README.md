@@ -1,10 +1,10 @@
-# 🐶🐱 Cats vs Dogs Classifier using MobileNetV2 (Transfer Learning)
+# Cats vs Dogs Classifier using MobileNetV2 (Transfer Learning)
 
 This project applies **transfer learning** with **MobileNetV2** to build a binary image classifier that can distinguish between cats and dogs. It was developed using TensorFlow and trained on the Cats vs Dogs dataset from `tensorflow_datasets`.
 
 ---
 
-## 📌 Overview
+## Overview
 
 - **Problem**: Binary classification — Cat (0) vs Dog (1)
 - **Model**: Pre-trained `MobileNetV2` (feature extractor)
@@ -14,7 +14,7 @@ This project applies **transfer learning** with **MobileNetV2** to build a binar
 
 ---
 
-## ⚙️ Model Architecture
+## Model Architecture
 
 - Base: `MobileNetV2(include_top=False, weights='imagenet', trainable=False)`
 - Classifier:
@@ -23,7 +23,7 @@ This project applies **transfer learning** with **MobileNetV2** to build a binar
 
 ---
 
-## 🧠 Training Setup
+## Training Setup
 
 - Dataset split:  
   - 70% training  
@@ -36,7 +36,7 @@ This project applies **transfer learning** with **MobileNetV2** to build a binar
 
 ---
 
-## 📊 Results
+## Results
 
 | Metric     | Value         |
 |------------|---------------|
@@ -50,9 +50,13 @@ This project applies **transfer learning** with **MobileNetV2** to build a binar
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/cats-vs-dogs-mobilenet.git
    cd cats-vs-dogs-mobilenet
+2. Open the notebook
+3. Install required libraries (if needed):
+   pip install tensorflow tensorflow-datasets matplotlib
+ 
