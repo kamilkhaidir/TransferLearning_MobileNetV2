@@ -58,5 +58,6 @@ This project applies **transfer learning** with **MobileNetV2** to build a binar
    cd cats-vs-dogs-mobilenet
 2. Open the notebook
 3. Install required libraries (if needed):
+   ```bash
    pip install tensorflow tensorflow-datasets matplotlib
  
